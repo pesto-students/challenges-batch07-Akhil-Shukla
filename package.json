@@ -1,7 +1,7 @@
 {
   "name": "exercise-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Please read through the instructions carefully.",
   "main": "index.js",
   "engines": {
     "node": ">=12.18.3"
@@ -16,5 +16,17 @@
   "dependencies": {
     "npx": "^10.2.2",
     "pesto-exercise-starter": "latest"
-  }
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-plugin-react": "^7.22.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pesto-students/challenges-batch07-Akhil-Shukla.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pesto-students/challenges-batch07-Akhil-Shukla/issues"
+  },
+  "homepage": "https://github.com/pesto-students/challenges-batch07-Akhil-Shukla#readme"
 }
