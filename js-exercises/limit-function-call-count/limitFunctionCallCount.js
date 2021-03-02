@@ -1,10 +1,10 @@
-const limitFunctionCallCount = (callback, maxNumberOfCalls) => {
-  let callCounter = 0;
+const limitFunctionCallCount = (callback, maxCalls) => {
+  let counter = 0;
 
-  return (...argsForCallback) => {
-    if (callCounter < maxNumberOfCalls) {
-      callCounter += 1;
-      return callback(...argsForCallback);
+  return (...args) => {
+    if (counter < maxCalls) {
+      counter += 1;
+      return callback(...args);
     }
     return null;
   };
